@@ -3,15 +3,16 @@
     margin: 0;
 }
 #navigasi{
-    background-color: #9b59b6;
+    background-color: #082032;
     align-items: center;
     padding: 32px;
     display: flex;
+    color: #FF4C29;
       
 }
 
 #navigasi a {
-    color: rgb(3, 3, 3);
+    color: #FF4C29;
     margin-right:40px;
     text-decoration: none;  
 }
@@ -24,7 +25,7 @@
     color: white;
 }
 #sec1{
-  background-color: rgb(96, 117, 117);
+  background-color: #2C394B;
   padding: 100px;
   display: flex;
   flex-direction: column;
@@ -42,7 +43,7 @@
 
 }
 #portfolio{
-    background-color: #30416d;
+    background-color: #334756;
     padding: 80pt;
     display: flex;
     flex-direction: column;
@@ -55,7 +56,7 @@
     
 }
 #sec3{
-    background-color: rgb(153, 152, 149);
+    background-color: #334756;
     margin-bottom: 30pxs;
     display: flex;
     align-items: center;
@@ -66,6 +67,8 @@
 .judul{
     font-size: 60px;
     align-items: center;
+    margin-bottom: 60px;
+
     
 }
 #paragraf1{
@@ -104,7 +107,7 @@
       background-color: rgb(162, 0, 255);
       border: none;
       width: 100px;
-      color: azure;
+      color: #082032;
       padding: 16px 32px;
       margin-top: 50px;
       cursor: pointer;
@@ -118,14 +121,15 @@
     resize: none;
   }
   #footeratas{
-    background-color: #30416d;
+    background-color: #334756;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 80px;
+    margin-bottom: 0px;
   }
   #fkiri, #fkanan{
-      margin-right: 100px;
+      
       display: flex;
       justify-content: center;
       align-items: center;
@@ -143,24 +147,23 @@
       padding: 40px;
       align-items: center;
   }
-#footeratas, h2{
-    margin-bottom: 20px;
-
-}
 
 #footerbawa{
+    padding: 30px;
     display: flex;
     justify-content: center;
     background-color: black;
     color: white;
 }
-#buttom{
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#alamat{
+    color: white;
 }
-
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: #9b59b6;
+    border: none;
+}
 
 
